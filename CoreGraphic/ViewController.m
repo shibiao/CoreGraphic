@@ -8,7 +8,10 @@
 
 #import "ViewController.h"
 
+#import "SBView.h"
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet SBView *drawView;
 
 @end
 
@@ -16,9 +19,49 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
-
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    self.drawView.color = yellow;
+}
+- (IBAction)removeView:(id)sender {
+    
+//    NSLog(@"%lu",(unsigned long)self.drawView.subviews.count);
+//   SBView *tmpView;
+//    tmpView = self.drawView;
+//    while (tmpView.subviews.count>0) {
+//        for (SBView *subView in tmpView.subviews) {
+//            if (subView.subviews.count==0) {
+//                if (subView.isDrawed) {
+//                    [subView removeFromSuperview];
+//                    return;
+//                }else {
+//                    [subView removeFromSuperview];
+//                    [self removeView:nil];
+//                }
+//            }else {
+//                tmpView = subView;
+//            }
+//        }
+//    }
+//    if (self.drawView.subviews.count==0) {
+//        [self.drawView removeFromSuperview];
+//    }
+    
+//    [tmpView removeFromSuperview];
+}
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+//    [self.textField becomeFirstResponder];
+    
+//    UITextPosition *start = [self.textField positionFromPosition:[self.textField beginningOfDocument]
+//                                                 offset:1];
+//    UITextPosition *end = [self.textField positionFromPosition:start
+//                                               offset:0];
+//    [self.textField setSelectedTextRange:[self.textField textRangeFromPosition:start toPosition:end]];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

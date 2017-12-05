@@ -13,6 +13,8 @@
 		69A2CAC41FD4D3F2006FCF94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69A2CAC31FD4D3F2006FCF94 /* Assets.xcassets */; };
 		69A2CAC71FD4D3F2006FCF94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A2CAC51FD4D3F2006FCF94 /* LaunchScreen.storyboard */; };
 		69A2CACA1FD4D3F2006FCF94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A2CAC91FD4D3F2006FCF94 /* main.m */; };
+		69A2CAD21FD4D807006FCF94 /* SBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A2CAD11FD4D807006FCF94 /* SBView.m */; };
+		69FEBF871FD5438D00A94993 /* UIColor+SBColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FEBF861FD5438D00A94993 /* UIColor+SBColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		69A2CAC61FD4D3F2006FCF94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69A2CAC81FD4D3F2006FCF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69A2CAC91FD4D3F2006FCF94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69A2CAD01FD4D807006FCF94 /* SBView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBView.h; sourceTree = "<group>"; };
+		69A2CAD11FD4D807006FCF94 /* SBView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBView.m; sourceTree = "<group>"; };
+		69FEBF851FD5438D00A94993 /* UIColor+SBColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+SBColor.h"; sourceTree = "<group>"; };
+		69FEBF861FD5438D00A94993 /* UIColor+SBColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SBColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				69A2CABB1FD4D3F1006FCF94 /* AppDelegate.m */,
 				69A2CABD1FD4D3F1006FCF94 /* ViewController.h */,
 				69A2CABE1FD4D3F1006FCF94 /* ViewController.m */,
+				69A2CAD01FD4D807006FCF94 /* SBView.h */,
+				69A2CAD11FD4D807006FCF94 /* SBView.m */,
+				69FEBF851FD5438D00A94993 /* UIColor+SBColor.h */,
+				69FEBF861FD5438D00A94993 /* UIColor+SBColor.m */,
 				69A2CAC01FD4D3F2006FCF94 /* Main.storyboard */,
 				69A2CAC31FD4D3F2006FCF94 /* Assets.xcassets */,
 				69A2CAC51FD4D3F2006FCF94 /* LaunchScreen.storyboard */,
@@ -145,6 +155,8 @@
 				69A2CABF1FD4D3F1006FCF94 /* ViewController.m in Sources */,
 				69A2CACA1FD4D3F2006FCF94 /* main.m in Sources */,
 				69A2CABC1FD4D3F1006FCF94 /* AppDelegate.m in Sources */,
+				69FEBF871FD5438D00A94993 /* UIColor+SBColor.m in Sources */,
+				69A2CAD21FD4D807006FCF94 /* SBView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
